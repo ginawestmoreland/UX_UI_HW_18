@@ -36,11 +36,49 @@ button{
     color: #6f33f9;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.mywork{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+}
+.titleText{
+    margin-left: 100px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: center;
+}
+.IHHphoto{
+    width: 60px;
+}
+.flexitem{
+    border:2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
 .bottomnav{
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
 }
 .inlineblockfoot{
     display: inline-block;
