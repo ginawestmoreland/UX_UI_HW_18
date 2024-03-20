@@ -1,0 +1,54 @@
+.logo{
+    width: 40pt;
+    padding: 1%;
+}
+.topnav{
+    background-color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.inlineblock{
+    display: inline-block;
+    vertical-align: top;
+}
+.topnavul{
+    float: right;
+}
+.profilepic{
+    width: 200px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: white;
+    padding: 10px; 
+    border: 1px solid#6f33f9;
+    border-radius: 20px; 
+    font-size: 16px;
+    color: #6f33f9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bottomnav{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inlineblockfoot{
+    display: inline-block;
+    vertical-align: top;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottomnavul{
+    margin: 0;
+    padding: 0;
+}
